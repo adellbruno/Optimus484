@@ -1,0 +1,8 @@
+# Avisos de terceiros
+- **VS Code** (https://github.com/microsoft/vscode) - MIT, Microsoft Corporation.
+- **VSCodium** (https://github.com/VSCodium/vscodium) - MIT. Scripts de build e patches deste repositório vêm dele.
+- **Roo Code** (https://github.com/RooCodeInc/Roo-Code) - Apache-2.0. Instalado a partir do Open VSX na primeira execução; não é redistribuído neste repositório.
+- **llama.cpp** (https://github.com/ggml-org/llama.cpp) - MIT. O `llama-server` é baixado no build (`optimus/fetch_binarios.sh`) e embutido no instalador; as variantes CUDA incluem as bibliotecas de execução da NVIDIA (cudart), distribuídas pela NVIDIA sob a licença do CUDA Toolkit.
+- **Git for Windows / MinGit** (https://github.com/git-for-windows/git) - GPL-2.0. Baixado no build e embutido no instalador do Windows sem alterações; o código-fonte está no repositório acima.
+- **Node.js** (MIT), **Python** (PSF, build python-build-standalone) com **PyInstaller** (GPL-2.0 com exceção para os executáveis gerados), **Zig** (MIT) e **GitHub CLI** (MIT) - baixados no build e embutidos em `ferramentas/` para o agente compilar projetos e criar executáveis. Cada um mantém a própria licença, incluída nos pacotes.
+- Os nomes "Visual Studio Code" e o logotipo são marcas da Microsoft. Os ícones e o logo do Optimus (um "O" aberto com o símbolo de prompt `>`) são arte original deste projeto, em `icons/` (`optimus_tile.svg` é a matriz do ícone do aplicativo; `icons/stable/*.svg`, a marca). "Optimus" também é nome de personagem de terceiros: se for distribuir o editor publicamente, confira a disponibilidade da marca.
